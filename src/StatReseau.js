@@ -17,8 +17,8 @@ function StatReseau({lignes}){
     
     return(
         <div>
-            <span>{lignes.length} lignes disponibles, </span>
-            <span>{totalArrets} arrêts au total, </span>
+            <span>{lignes.length} lignes disponibles ● </span>
+            <span>{totalArrets} arrêts au total ● </span>
             <span>Ligne ayant le plus d'arrêts: {ligneMax.numero} ({ligneMax.arrets} arrêts)</span>
         </div>
     );
