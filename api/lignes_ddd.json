@@ -46,5 +46,21 @@
     "arrivee": "Sandaga",
     "arrets": 11,
     "listeArrets": ["Yoff Village", "Aeroport LSS", "Parcelles U17", "Grand Yoff", "HLM", "Sandaga"]
+  },
+  {
+    "id": 7,
+    "numero": "33",
+    "depart": "Colobane",
+    "arrivee": "Guediawaye",
+    "arrets": 11,
+    "listeArrets": ["Place Obe", "Dial Diop", "Grand Dakar", "Khar Yalla", "Grand Medine", "Guediawaye"]
+  },
+  {
+    "id": 8,
+    "numero": "84",
+    "depart": "UCAD",
+    "arrivee": "Keur Massar",
+    "arrets": 12,
+    "listeArrets": ["Colobane", "Yarakh", "Thiaroye", "Pikine", "Rufisque", "Keur Massar"]
   }
 ]

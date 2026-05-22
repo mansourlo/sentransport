@@ -38,6 +38,21 @@
   font-size: 0.9rem;
 }
 
+.bouton-recharger {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin: 6px 0;
+}
+.bouton-recharger:hover {
+  background-color: #2980b9;
+}
+
 @media (max-width: 600px) {
   .contenu {
     padding: 12px;
