@@ -1,0 +1,84 @@
+.carte-container {
+  margin-top: 24px;
+}
+
+.carte-titre {
+  color: #2c3e50;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.carte {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #dcdde1;
+}
+
+.arret-proche {
+  color: #0a6e31;
+  font-size: 0.95rem;
+  margin: 0 0 12px 0;
+  padding: 8px 12px;
+  background-color: #e8f5e9;
+  border-radius: 6px;
+}
+
+.bouton-centrer {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background-color: white;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #3498db;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: all 0.2s;
+}
+.bouton-centrer:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+.liste-proches {
+  background-color: #f9f9f9;
+  border-left: 4px solid #3498db;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.liste-proches h3 {
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+.liste-proches ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.liste-proches li {
+  margin: 4px 0;
+}
+.rang {
+  font-weight: bold;
+  color: #3498db;
+  margin-right: 8px;
+}
+.plus-proche-badge {
+  color: orange;
+  font-style: italic;
+  margin-left: 6px;
+}
+
+@media (max-width: 600px) {
+  .carte {
+    height: 300px;
+  }
+}
